@@ -1,7 +1,7 @@
 <suite parallel="false" name="TestNG Testing">
 	<test name="Test1">
 		<classes>
-			<class name="com.HandelDropdown_3.DropDownDemo_1" />
+			<class name="com.dynamicWebtable_17.DynamicWebtableDemo_1" />
 		</classes>
 	</test>
 </suite>
