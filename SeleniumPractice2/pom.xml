@@ -50,6 +50,14 @@
 			<artifactId>webdrivermanager</artifactId>
 			<version>5.7.0</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.10.2</version>
+			<scope>test</scope>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<plugins>
@@ -68,8 +76,8 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.18.1</version>
 				<configuration>
-						<suiteXmlFiles>TestNGSuite.xml</suiteXmlFiles>
-					</configuration>
+					<suiteXmlFiles>TestNGSuite.xml</suiteXmlFiles>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
