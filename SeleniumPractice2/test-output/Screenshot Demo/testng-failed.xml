@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Screenshot Demo]">
+  <listeners>
+    <listener class-name="com.ScreenShot_12.ITestListenerClass_2"/>
+  </listeners>
+  <test thread-count="5" name="Screenshot failure(failed)">
+    <classes>
+      <class name="com.ScreenShot_12.WellnessCornerScreenShot_2">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="loginApp" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.ScreenShot_12.WellnessCornerScreenShot_2 -->
+    </classes>
+  </test> <!-- Screenshot failure(failed) -->
+</suite> <!-- Failed suite [Screenshot Demo] -->

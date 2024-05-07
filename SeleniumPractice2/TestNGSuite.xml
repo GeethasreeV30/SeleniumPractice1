@@ -1,0 +1,12 @@
+<suite parallel="false" name="TestNG Testing">
+	<test name="Test1">
+		<classes>
+			<class name="com.pagenation_15.PagenationDemo_1" />
+		</classes>
+	</test>
+	<test name="Test2">
+		<classes>
+			<class name="com.dynamicWebtable_17.DynamicTableCustomXpathDemo_2" />
+		</classes>
+	</test>
+</suite>
